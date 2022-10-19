@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.9 on win32)" generated="20221019 10:35:08.310" rpa="false" schemaversion="3">
+<suite id="s1" name="Test Run" source="C:\Users\asus\PycharmProjects\RobotFrameworkProjet1\Test\Test_tuto\test_run.robot">
+<test id="s1-t1" name="Afficher un teste1" line="12">
+<kw name="log hello world">
+<msg timestamp="20221019 10:35:08.341" level="FAIL">User keyword 'log hello world' contains no keywords.</msg>
+<status status="FAIL" starttime="20221019 10:35:08.341" endtime="20221019 10:35:08.341"/>
+</kw>
+<tag>1</tag>
+<status status="FAIL" starttime="20221019 10:35:08.341" endtime="20221019 10:35:08.341">User keyword 'log hello world' contains no keywords.</status>
+</test>
+<test id="s1-t2" name="Afficher un teste2" line="16">
+<kw name="log hello world">
+<msg timestamp="20221019 10:35:08.357" level="FAIL">User keyword 'log hello world' contains no keywords.</msg>
+<status status="FAIL" starttime="20221019 10:35:08.357" endtime="20221019 10:35:08.357"/>
+</kw>
+<tag>2</tag>
+<status status="FAIL" starttime="20221019 10:35:08.357" endtime="20221019 10:35:08.357">User keyword 'log hello world' contains no keywords.</status>
+</test>
+<doc>Test case pour expliquer l'excution
+des tests</doc>
+<status status="FAIL" starttime="20221019 10:35:08.310" endtime="20221019 10:35:08.357"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">1</stat>
+<stat pass="0" fail="1" skip="0">2</stat>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Test Run">Test Run</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>

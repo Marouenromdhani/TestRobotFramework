@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<robot generator="Robot 5.0.1 (Python 3.9.9 on win32)" generated="20221019 10:37:47.802" rpa="false" schemaversion="3">
+<suite id="s1" name="Test" source="C:\Users\asus\PycharmProjects\RobotFrameworkProjet1\Test">
+<suite id="s1-s1" name="Test tuto" source="C:\Users\asus\PycharmProjects\RobotFrameworkProjet1\Test\Test_tuto">
+<suite id="s1-s1-s1" name="Test Run" source="C:\Users\asus\PycharmProjects\RobotFrameworkProjet1\Test\Test_tuto\test_run.robot">
+<test id="s1-s1-s1-t1" name="Afficher un teste1" line="12">
+<kw name="log hello world">
+<msg timestamp="20221019 10:37:47.951" level="FAIL">User keyword 'log hello world' contains no keywords.</msg>
+<status status="FAIL" starttime="20221019 10:37:47.950" endtime="20221019 10:37:47.951"/>
+</kw>
+<tag>1</tag>
+<status status="FAIL" starttime="20221019 10:37:47.949" endtime="20221019 10:37:47.952">User keyword 'log hello world' contains no keywords.</status>
+</test>
+<test id="s1-s1-s1-t2" name="Afficher un teste2" line="16">
+<kw name="log hello world">
+<msg timestamp="20221019 10:37:47.957" level="FAIL">User keyword 'log hello world' contains no keywords.</msg>
+<status status="FAIL" starttime="20221019 10:37:47.956" endtime="20221019 10:37:47.957"/>
+</kw>
+<tag>2</tag>
+<status status="FAIL" starttime="20221019 10:37:47.955" endtime="20221019 10:37:47.958">User keyword 'log hello world' contains no keywords.</status>
+</test>
+<doc>Test case pour expliquer l'excution
+des tests</doc>
+<status status="FAIL" starttime="20221019 10:37:47.945" endtime="20221019 10:37:47.961"/>
+</suite>
+<status status="FAIL" starttime="20221019 10:37:47.941" endtime="20221019 10:37:47.964"/>
+</suite>
+<status status="FAIL" starttime="20221019 10:37:47.805" endtime="20221019 10:37:47.967"/>
+</suite>
+<statistics>
+<total>
+<stat pass="0" fail="2" skip="0">All Tests</stat>
+</total>
+<tag>
+<stat pass="0" fail="1" skip="0">1</stat>
+<stat pass="0" fail="1" skip="0">2</stat>
+</tag>
+<suite>
+<stat pass="0" fail="2" skip="0" id="s1" name="Test">Test</stat>
+<stat pass="0" fail="2" skip="0" id="s1-s1" name="Test tuto">Test.Test tuto</stat>
+<stat pass="0" fail="2" skip="0" id="s1-s1-s1" name="Test Run">Test.Test tuto.Test Run</stat>
+</suite>
+</statistics>
+<errors>
+</errors>
+</robot>
